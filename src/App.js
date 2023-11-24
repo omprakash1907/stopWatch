@@ -4,11 +4,12 @@ import './App.css';
 // import PropEx from './PropEx/PropEx';
 // import LifeCycle from './LifeCycle/LifeCycle'
 // import CardCart from './card/CardCart';
-import FormValidation from './FormValidation/FormValidation';
+// import FormValidation from './FormValidation/FormValidation';
+import CardCart from './card/CardCart';
 
 function App() {
   return (
-    <FormValidation/>
+    <CardCart/>
   );
 }
 
