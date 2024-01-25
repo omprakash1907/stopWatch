@@ -1,16 +1,12 @@
 
 import './App.css';
-import StopWatch from './Timer/StopWatch';
-// import StateEx from './StateEx/StateEx';
-// import PropEx from './PropEx/PropEx';
-// import LifeCycle from './LifeCycle/LifeCycle'
-// import CardCart from './card/CardCart';
-// import FormValidation from './FormValidation/FormValidation';
-// import CardCart from './card/CardCart';
+import Crud from './Realtime-firestore/Crud';
+import User from './Realtime-firestore/User';
+
 
 function App() {
   return (
-    <StopWatch/>
+    <User/>
   );
 }
 
